@@ -1,4 +1,4 @@
-const domain = "http://localhost:8880";
+const domain = "https://xiw.world";
 
 
 // 使用 async/await 获取校验码
