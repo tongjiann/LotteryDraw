@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.lottery-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lottery-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.award-list {
+    display: inline-block;
+    overflow-x: auto;
+    margin: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.award-item {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.award-item-highlight {
+    background-color: #ff9800;
+}
+.award-item-focus {
+    background-color: #dcdcdc;
+}
+
+.lottery-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left input {
+    width: 120%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.right button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
